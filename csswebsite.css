@@ -1,3 +1,7 @@
+@font-face {
+    font-family:"buchananoutital";
+    src: url("font/Buchanan-Rotalic/buchananoutital.ttf") format("truetype");
+}
 body {
     background-image: url(GYM.jpg);
     background-size: contain;
@@ -55,15 +59,14 @@ main p  {
     text-align: center;
 }
 
+
 main h1 {
-    color: azure;
-    font-size: 80px;
+    font-family: "buchananoutital";
+    letter-spacing: 5px;
+    font-size: 100px;
     text-align: center;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing:initial;
-    font-weight: 555;
-    font-style: italic;
-    padding: 20px;
+    padding-top: 125px;
+    margin: 0px;
 }
 
 main a {
