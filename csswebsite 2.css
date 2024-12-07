@@ -2,6 +2,32 @@
     font-family:"buchananoutital";
     src: url("font/Buchanan-Rotalic/buchananoutital.ttf") format("truetype");
 }
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #4cd9c6;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #6fe8d7;
+}
+
+
 body {
     background-image: url(GYM.jpg);
     background-size: contain;
@@ -48,8 +74,9 @@ section{
 }
 
 footer{
-    height: 100px;
+    height: 500px;
     text-align: center;
+    background-color: #fff;
 }
 footer p {
     color: azure;
