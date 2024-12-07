@@ -1,0 +1,59 @@
+@font-face {
+    font-family:"buchananoutital";
+    src: url("font/Buchanan-Rotalic/buchananoutital.ttf") format("truetype");
+}
+body {
+    background-image: url(GYM.jpg);
+    background-size: contain;
+    margin: 0px 20px;
+}
+header{
+    height: 245px;
+    text-align: center;
+    
+}
+
+nav{
+    height: 25px;
+    background-color: rgb(58, 60, 60);
+    text-align: center;
+    border-radius: 15px;
+    margin: 0px 25%;
+    padding-top:12.5px;
+    padding-bottom: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0px 40px;
+    text-align: center;
+}
+
+main{
+    height: 500px;
+    color: azure;
+    text-align: center;
+}
+
+#Gym-Routine {
+    align-items: center;
+    height: 500px;
+    width: 1000px;
+
+}
+
+section{
+    height: 405px;
+}
+
+footer{
+    height: 100px;
+    text-align: center;
+}
+footer p {
+    color: azure;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
